@@ -1,0 +1,23 @@
+name: Delphian v8.3 BEAST TANK - FREE NO CARD
+on:
+  schedule:
+    - cron: '*/5 * * * *'
+  workflow_dispatch:
+jobs:
+  trade:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v3
+      - uses: actions/setup-python@v4
+        with:
+          python-version: '3.10'
+      - run: pip install requests
+      - run: python main.py
+      - run: |
+          git config user.email "bot@beast.tank"
+          git config user.name "Beast Tank Bot"
+          git add status.json candles.json || true
+          git diff --quiet && git diff --staged --quiet || git commit -m "update status"
+          git push
