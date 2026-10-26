@@ -1,9 +1,19 @@
 {
-  "xau": 4016.699951,
-  "htf_regime": "BUILDING",
-  "htf_sweep": "NO SWEEP",
-  "signal": "WAIT",
+  "xau": 4015.5,
+  "htf_regime": "AVG VOL 1.0 | IGN 1 CONF 1",
+  "htf_sweep": "NO SWEEP - STAY OUT",
+  "breath": "NONE",
+  "bumps_hh_lh": 0,
+  "bumps_ll_hl": 0,
+  "valley_top": "EXPIRED",
+  "atr_ltf": "50.0% INVASION",
+  "atr_htf": "IGN 0>AVG*1.5 ? False",
+  "bullets": "0/2",
+  "signal": "BALANCE RANDOM",
   "bal": 10000,
   "pos": [],
-  "last_check": "2026-10-26 04:58:25.105357"
+  "server": "BEAST V5.3 INVASION + V8.3 FREE",
+  "last_check": "2026-10-26 10:55:14.297271",
+  "ny": true,
+  "fifty": 0
 }
