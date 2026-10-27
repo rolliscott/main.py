@@ -1,19 +1,19 @@
 {
-  "xau": 4058.899902,
+  "xau": 4062.199951,
   "htf_regime": "AVG VOL 1.0 | IGN 1 CONF 1",
-  "htf_sweep": "BEAR SWEEP Fifty 4033.90",
-  "breath": "BEAR INVASION",
+  "htf_sweep": "NO SWEEP - STAY OUT",
+  "breath": "NONE",
   "bumps_hh_lh": 0,
   "bumps_ll_hl": 0,
-  "valley_top": "TOUCH WAIT",
+  "valley_top": "EXPIRED",
   "atr_ltf": "50.0% INVASION",
-  "atr_htf": "IGN 1>AVG*1.5 ? False",
+  "atr_htf": "IGN 0>AVG*1.5 ? False",
   "bullets": "0/2",
   "signal": "BALANCE RANDOM",
   "bal": 10000,
   "pos": [],
   "server": "BEAST V5.3 INVASION + V8.3 FREE",
-  "last_check": "2026-10-27 16:28:49.799215",
+  "last_check": "2026-10-27 20:54:21.794026",
   "ny": true,
-  "fifty": 4033.899902
+  "fifty": 0
 }
