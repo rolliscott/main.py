@@ -1,5 +1,5 @@
 {
-  "xau": 3905.5,
+  "xau": 3943.100098,
   "htf_regime": "AVG VOL 1.0 | IGN 1 CONF 1",
   "htf_sweep": "NO SWEEP - STAY OUT",
   "breath": "NONE",
@@ -13,7 +13,7 @@
   "bal": 10000,
   "pos": [],
   "server": "BEAST V5.3 INVASION + V8.3 FREE",
-  "last_check": "2026-11-02 11:39:51.018641",
+  "last_check": "2026-11-02 20:52:49.666146",
   "ny": true,
   "fifty": 0
 }
